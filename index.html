@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Portfolio | Pushpendra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">AIPortfolio</div>
+            
+            <nav class="nav-links">
+                <a href="#" class="active">Dashboard</a>
+                <a href="#">Projects</a>
+                <a href="#">Skills</a>
+                <a href="#">Experience</a>
+                <a href="#">Articles</a>
+                <a href="#">Awards</a>
+                <a href="#">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="icon-btn"><i class="ri-settings-3-line"></i> Setting</button>
+                <button class="icon-btn-circle"><i class="ri-notification-3-line"></i></button>
+                <button class="icon-btn-circle"><i class="ri-user-line"></i></button>
+            </div>
+        </header>
+
+        <!-- Main Title Area -->
+        <section class="title-section">
+            <h1 class="main-title">Welcome, I am Pushpendra</h1>
+        </section>
+
+        <!-- Top Stats Row -->
+        <section class="top-stats-row">
+            <div class="stats-left">
+                <div class="stat-item">
+                    <span class="stat-label">AI Models</span>
+                    <div class="stat-bar-bg"><div class="stat-bar dark" style="width: 15%">15%</div></div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Fine-Tuned</span>
+                    <div class="stat-bar-bg"><div class="stat-bar yellow" style="width: 15%">15%</div></div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Compute Time</span>
+                    <div class="stat-bar-bg"><div class="stat-bar striped" style="width: 60%">60%</div></div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Accuracy</span>
+                    <div class="stat-bar-bg outline"><div class="stat-bar empty" style="width: 10%">10%</div></div>
+                </div>
+            </div>
+            
+            <div class="stats-right">
+                <div class="big-stat">
+                    <div class="big-stat-val"><i class="ri-team-line"></i> 78</div>
+                    <div class="big-stat-label">Models</div>
+                </div>
+                <div class="big-stat">
+                    <div class="big-stat-val"><i class="ri-user-add-line"></i> 56</div>
+                    <div class="big-stat-label">APIs built</div>
+                </div>
+                <div class="big-stat">
+                    <div class="big-stat-val"><i class="ri-macbook-line"></i> 203</div>
+                    <div class="big-stat-label">Projects</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Grid -->
+        <section class="dashboard-grid">
+            
+            <!-- Left Column -->
+            <div class="grid-col grid-left">
+                <div class="profile-card">
+                    <img src="assets/profile.png" alt="Pushpendra" class="profile-img">
+                    <div class="profile-info">
+                        <div class="profile-text">
+                            <h2>Pushpendra</h2>
+                            <p>AI Engineer</p>
+                        </div>
+                        <div class="profile-price">$1,200</div>
+                    </div>
+                </div>
+
+                <div class="accordion">
+                    <div class="acc-item">
+                        <div class="acc-header"><span>Core Competencies</span> <i class="ri-arrow-down-s-line"></i></div>
+                    </div>
+                    <div class="acc-item expanded">
+                        <div class="acc-header"><span>Tech Stack</span> <i class="ri-arrow-up-s-line"></i></div>
+                        <div class="acc-body">
+                            <div class="device-item">
+                                <div class="device-icon" style="background: #111; color: white;"><i class="ri-cpu-line"></i></div>
+                                <div class="device-text">
+                                    <h4>PyTorch & TensorFlow</h4>
+                                    <p>Version 2.0+</p>
+                                </div>
+                                <i class="ri-more-2-fill more-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="acc-item">
+                        <div class="acc-header"><span>Certifications</span> <i class="ri-arrow-down-s-line"></i></div>
+                    </div>
+                    <div class="acc-item">
+                        <div class="acc-header"><span>Latest Articles</span> <i class="ri-arrow-down-s-line"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Middle Column -->
+            <div class="grid-col grid-mid">
+                <div class="mid-top-row">
+                    <div class="card progress-card">
+                        <div class="card-header">
+                            <h3>Progress</h3>
+                            <button class="icon-btn-circle small"><i class="ri-arrow-right-up-line"></i></button>
+                        </div>
+                        <div class="progress-stats">
+                            <h2>6.1 h</h2>
+                            <p>Work Time<br>this week</p>
+                        </div>
+                        <div class="bar-chart">
+                            <!-- Bars S M T W T F S -->
+                            <div class="bar-col"><div class="bar-fill" style="height: 30%"></div><span>S</span></div>
+                            <div class="bar-col"><div class="bar-fill dark" style="height: 60%"></div><div class="dot"></div><span>M</span></div>
+                            <div class="bar-col"><div class="bar-fill dark" style="height: 50%"></div><div class="dot"></div><span>T</span></div>
+                            <div class="bar-col"><div class="bar-fill dark" style="height: 40%"></div><div class="dot"></div><span>W</span></div>
+                            <div class="bar-col"><div class="bar-fill dark" style="height: 70%"></div><div class="dot"></div><span>T</span></div>
+                            <div class="bar-col active"><div class="tooltip">5h 23m</div><div class="bar-fill yellow" style="height: 80%"></div><div class="dot yellow"></div><span>F</span></div>
+                            <div class="bar-col"><div class="bar-fill" style="height: 20%"></div><span>S</span></div>
+                        </div>
+                    </div>
+
+                    <div class="card tracker-card">
+                        <div class="card-header">
+                            <h3>Time tracker</h3>
+                            <button class="icon-btn-circle small"><i class="ri-arrow-right-up-line"></i></button>
+                        </div>
+                        <div class="circular-tracker">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" class="circle-bg" stroke-dasharray="2 4"></circle>
+                                <circle cx="50" cy="50" r="40" class="circle-progress"></circle>
+                            </svg>
+                            <div class="tracker-text">
+                                <h2>02:35</h2>
+                                <p>Work Time</p>
+                            </div>
+                        </div>
+                        <div class="tracker-controls">
+                            <button class="play-btn"><i class="ri-play-fill"></i></button>
+                            <button class="pause-btn"><i class="ri-pause-fill"></i></button>
+                            <button class="stop-btn"><i class="ri-stop-fill"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card calendar-card">
+                    <div class="cal-header">
+                        <span class="month dim">August</span>
+                        <span class="month active">September 2024</span>
+                        <span class="month dim">October</span>
+                    </div>
+                    <div class="cal-grid">
+                        <div class="cal-days">
+                            <div class="cal-col">Mon<br><span>22</span></div>
+                            <div class="cal-col">Tue<br><span>23</span></div>
+                            <div class="cal-col active">Wed<br><span>24</span></div>
+                            <div class="cal-col">Thu<br><span>25</span></div>
+                            <div class="cal-col">Fri<br><span>26</span></div>
+                            <div class="cal-col">Sat<br><span>27</span></div>
+                        </div>
+                        <div class="cal-timeline">
+                            <div class="time-labels">
+                                <div>8:00 am</div>
+                                <div>9:00 am</div>
+                                <div>10:00 am</div>
+                                <div>11:00 am</div>
+                            </div>
+                            <div class="time-lines">
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                
+                                <div class="event dark-event" style="top: 20%; left: 16.6%; width: 33%;">
+                                    <div class="event-title">Weekly Team Sync</div>
+                                    <div class="event-desc">Discuss progress on AI models</div>
+                                </div>
+                                <div class="event light-event" style="top: 70%; left: 50%; width: 33%;">
+                                    <div class="event-title">Client Demo</div>
+                                    <div class="event-desc">Presenting latest NLP model</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="grid-col grid-right">
+                <div class="card onboarding-card">
+                    <div class="onboarding-header">
+                        <h3>Model Training</h3>
+                        <h2>18%</h2>
+                    </div>
+                    <div class="onboarding-bars">
+                        <div class="o-bar"><span>30%</span><div class="bar-fill yellow">Task</div></div>
+                        <div class="o-bar"><span>25%</span><div class="bar-fill dark"></div></div>
+                        <div class="o-bar"><span>0%</span><div class="bar-fill grey"></div></div>
+                    </div>
+                </div>
+
+                <div class="card tasks-card dark-mode">
+                    <div class="tasks-header">
+                        <h3>Recent Projects</h3>
+                        <h2>2/8</h2>
+                    </div>
+                    <div class="task-list">
+                        <div class="task-item completed">
+                            <div class="task-icon"><i class="ri-robot-line"></i></div>
+                            <div class="task-info">
+                                <h4>LLM Fine-tuning</h4>
+                                <p>Sep 13, 08:30</p>
+                            </div>
+                            <i class="ri-checkbox-circle-fill check-icon"></i>
+                        </div>
+                        <div class="task-item completed">
+                            <div class="task-icon"><i class="ri-brain-line"></i></div>
+                            <div class="task-info">
+                                <h4>Computer Vision Pipeline</h4>
+                                <p>Sep 13, 10:30</p>
+                            </div>
+                            <i class="ri-checkbox-circle-fill check-icon"></i>
+                        </div>
+                        <div class="task-item">
+                            <div class="task-icon"><i class="ri-message-3-line"></i></div>
+                            <div class="task-info">
+                                <h4>Chatbot Integration</h4>
+                                <p>Sep 13, 13:00</p>
+                            </div>
+                            <div class="circle-empty"></div>
+                        </div>
+                        <div class="task-item">
+                            <div class="task-icon"><i class="ri-line-chart-line"></i></div>
+                            <div class="task-info">
+                                <h4>Predictive Analytics</h4>
+                                <p>Sep 13, 14:45</p>
+                            </div>
+                            <div class="circle-empty"></div>
+                        </div>
+                        <div class="task-item">
+                            <div class="task-icon"><i class="ri-links-line"></i></div>
+                            <div class="task-info">
+                                <h4>RAG System Setup</h4>
+                                <p>Sep 13, 16:30</p>
+                            </div>
+                            <div class="circle-empty"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
